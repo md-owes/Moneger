@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "Moneger",
+  "display": "standalone",
+  "name": "Moneger",
+  "short_name": "Moneger",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

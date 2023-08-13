@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Moneger.Wasm\Moneger.Wasm.csproj" />
+		<ProjectReference Include="..\Moneger.DataContracts\Moneger.DataContracts.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Serilog.AspNetCore" />
+		<PackageReference Include="Swashbuckle.AspNetCore" />
+		<PackageReference Include="Uno.Wasm.Bootstrap.Server" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+	"Moneger.Windows (Package)": {
+	  "commandName": "MsixPackage"
+	},
+	"Moneger.Windows (Unpackaged)": {
+	  "commandName": "Project"
+	}
+  }
+}
